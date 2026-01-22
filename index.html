@@ -35,5 +35,12 @@
         </div>
     </div>
     <!-- End Header -->
+
+    <script>
+        let linksIcon = document.querySelector(".header .links .icon");
+        linksIcon.addEventListener("click", function() {
+            document.querySelector(".header .links ul").classList.toggle("show");
+        });
+    </script>
 </body>
 </html>
