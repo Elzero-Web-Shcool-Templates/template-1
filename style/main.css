@@ -2,6 +2,8 @@
 :root {
     --main-color: #10CAB7;
     --secondary-color: #333;
+    --section-padding: 60px;
+    --section-background: #F6F6F6;
 }
 /* End Variables */
 
@@ -29,7 +31,7 @@ body {
 }
 
 /* Small */
-@media (max-width: 767px) {
+@media (min-width: 767px) {
     .container {
         width: 750px;
     }

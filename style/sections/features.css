@@ -1,8 +1,8 @@
 /* Start Features */
 .features {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background-color: #F6F6F6;
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+    background-color: var(--section-background);
 }
 
 .features .container {
