@@ -4,6 +4,7 @@
     --secondary-color: #333;
     --section-padding: 60px;
     --section-background: #F6F6F6;
+    --transition-duration: 0.3s;
 }
 /* End Variables */
 
@@ -13,6 +14,10 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -28,6 +33,11 @@ body {
 
 .show {
     display: block !important;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 /* Small */
